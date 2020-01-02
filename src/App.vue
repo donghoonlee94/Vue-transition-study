@@ -1,28 +1,26 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <SingleElement></SingleElement>
+    <CssAnimation></CssAnimation>
+    <CustomTransition></CustomTransition>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import SingleElement from './components/SingleElement.vue'
+import CssAnimation from './components/CssAnimation.vue'
+import CustomTransition from './components/CustomTransition.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+      SingleElement,
+      CssAnimation,
+      CustomTransition,
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
