@@ -6,7 +6,7 @@
     </button>
     <transition 
     name="fade"
-    :duration="{enter : 5, leave: 8 }">
+    :duration="{enter : 500, leave: 800 }">
       <p v-if="show">hello</p>
     </transition>    
   </div>
