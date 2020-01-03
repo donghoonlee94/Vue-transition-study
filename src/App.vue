@@ -9,6 +9,7 @@
     <ListTrans></ListTrans>
     <ListMoveTrans></ListMoveTrans>
     <StaggeringListTrans></StaggeringListTrans>
+    <DynamicTrans></DynamicTrans>
   </div>
 </template>
 
@@ -22,6 +23,8 @@ import ComponentTrans from './components/ComponentTrans.vue'
 import ListTrans from './components/ListTrans.vue'
 import ListMoveTrans from './components/ListMoveTrans.vue'
 import StaggeringListTrans from './components/StaggeringListTrans.vue'
+import DynamicTrans from './components/DynamicTrans.vue'
+
 
 export default {
   name: 'app',
@@ -35,6 +38,7 @@ export default {
       ListTrans,
       ListMoveTrans,
       StaggeringListTrans,
+      DynamicTrans,
   }
 }
 </script>
